@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+.footer-wrap{
+	padding-bottom: 40px;
+	letter-spacing: -1px;
+	color: #a3a3a3;
+}
+#footer-menu{
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	letter-spacing: -1px;
+	font-size: 12px;
+
+}
+#footer-menu>div>div p{
+	font-weight: 700;
+	margin-right: 30px;
+	line-height: 61px;
+}
+#footer-menu>div>div ul li{
+	margin-right: 30px;
+}
+#footer-menu>div>div.term ul li{
+	margin-right: 0;
+	margin-left: 30px;
+}
+
+#footer-menu>div>div ul li a{
+	line-height: 61px;
+	color: #555;
+}
+/* //////////////////////////////
+///////////company///////////////
+///////////////////////////// */
+#company>div>div.info{
+	flex: 2;
+}
+#company>div>div.inpay{
+	flex: 1;
+}
+#company>div>div.info>div.detail>div{
+	flex: 1;
+}
+#company>div>div.info>div.detail>div.left{
+	margin-right: 30px;
+}
+#company>div>div.info>div.detail>div>dl{
+	display: flex;
+}
+#company>div>div.info>div.detail>div>dl>dt{
+	flex: 3;
+}
+#company>div>div.info>div.detail>div>dl>dd{
+	flex: 4;
+	color: #161616;
+}
+#company>div>div.info>div.detail>div>dl>dd>a{
+	font-size: 10px;
+	color: #a3a3a3;
+}
+
+
+
+
+
+
+
+
+
+

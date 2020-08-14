@@ -1,0 +1,127 @@
+@charset "UTF-8";
+
+#user-menu ul li{
+	margin-left: 30px;
+	height: 40px;
+}
+#user-menu ul li a{
+	font-size: 12px;
+	color: #7d7d7d;
+	padding: 10px 0;
+	line-height: 40px;
+}
+
+#menu-top{
+	border-bottom: 1px solid #e1e1e1;
+	border-top: 1px solid #e1e1e1;
+	padding: 15px 0;
+}
+#menu-top>div>ul{
+	line-height: 43px;
+}
+#menu-top>div>ul li{
+	margin-right: 30px;
+}
+#menu-top>div>ul li a{
+	padding: 10px 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+#menu-top>div>div.search form input{
+	width: 295px;
+    height: 38px;
+    padding-left: 15px;
+    font-size: 14px;
+    background: #f9f9f9;
+    border: 1px solid #d5d5d5;
+    margin-right: 14px;
+}
+#menu-top>div>div.search form button{
+	background: none;
+	border: 0;
+	font-family: 'Roboto', sans-serif;
+	font-size: 12px;
+}
+
+#menu-bottom{
+	border-bottom: 1px solid #e1e1e1;
+}
+#menu-bottom>div.menu-bottom-wrap>ul{
+	height: 54px;
+}
+#menu-bottom>div.menu-bottom-wrap{
+	position: relative;
+}
+#menu-bottom>div.menu-bottom-wrap:after{
+	content: "";
+	position: absolute;
+	display:block;
+	left:0;
+	top:54px;
+	width: 1300px;
+	border-top: 4px solid #000;
+	z-index: 1;
+}
+
+#menu-bottom>div.menu-bottom-wrap>ul>li{
+	padding: 0 30px;
+}
+#menu-bottom>div.menu-bottom-wrap>ul>li:first-child{
+	padding: 0;
+	width:50px;
+	border-left: 1px solid #e1e1e1;
+	border-right: 1px solid #e1e1e1;
+}
+#menu-bottom>div>ul>li>a{
+	line-height: 54px;
+}
+/* /////////////// */
+/* drop-menu */
+/* /////////////// */
+#menu-bottom{
+	position: relative;
+}
+#menu-bottom>.drop-menu{
+	position: absolute;
+	width:100%;
+	top:54px;
+	background-color: rgba(255,255,255,0.85);
+}
+#drop-menu{
+	
+	padding: 40px 0; 
+	border-bottom: 4px solid #000;
+}
+#drop-menu>li{
+	flex: 1; /* /flex item 비율을 1:1:1~~로 */
+	border-left: 1px solid #e1e1e1;
+	font-size: 12px;
+	color: #555; 
+}
+#drop-menu>li:first-child {
+	border:0;
+}
+#drop-menu>li>p.tit{
+	text-align: center;
+}
+#drop-menu>li>p.tit a{
+	color: #555;
+	font-weight: 600;
+	letter-spacing: -1px;
+}
+#drop-menu>li>ul{
+	
+	margin-top: 30px;
+}
+#drop-menu>li>ul>li{
+	margin: 16px 0;
+	text-align: center;
+}
+
+
+
+
+
+
+
+

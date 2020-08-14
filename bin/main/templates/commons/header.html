@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<header th:fragment="header">
+      	<h1>상단영역</h1>
+      	<div>
+      		<section id="user-menu">
+      			<h1>user-menu</h1>
+   				<ul class="row-end-align view-width" >
+   					<li><a href="#">LOGIN</a></li> 
+					<li><a href="#">JOIN</a></li>
+					<li><a href="#">CART</a></li>
+					<li><a href="#">CUSTIMER CENTER</a></li>
+   				</ul>
+      		</section>
+      		<nav id="menu">
+      			<h1>main-menu</h1>
+      			<div>
+      				<section id="menu-top">
+      					<h1>memu-top</h1>
+      					<div class="view-width space-between">
+      						<ul class="left row-align">
+      							<li><a href="#">About</a></li> 
+      							<li><a href="#">INTAKE</a></li> 
+      							<li><a href="#">Magazine</a></li> 
+      							<li><a href="#">LAB Best</a></li>
+      						</ul>
+      						<div class="logo">
+      							<a href="/" title="홈으로 가기">
+      								<img alt="logo이미지" src="/images/logo.png">
+      							</a>
+      						</div>
+      						<div class="search column-center-align">
+      							<form>
+      								<input type="text" placeholder="검색어를 입력하세요">
+      								<button>SEARCH</button>
+      							</form>
+      						</div>
+      					</div>
+      				</section>
+      				<section id="menu-bottom">
+      					<h1>memu-bottom</h1>
+      					<div class="menu-bottom-wrap view-width">
+	   						<ul class="space-between" >
+	   							<li id="gnb" class="column-center-align">
+		   							<div class="gnb">
+			   							<span class="bar b1"></span>
+			   							<span class="bar b2"></span>
+			   							<span class="bar b3"></span>
+		   							</div>
+	   							</li>
+	   							
+	   							<li><a href="#">밀스</a></li>
+	   							<li><a href="#">아침간편식</a></li>
+	   							<li><a href="#">한끼</a></li>
+	   							<li><a href="#">슈가로로</a></li>
+	   							<li><a href="#">간식/음료</a></li>
+	   							<li><a href="#">다이어트/건강</a></li>
+	   							<li><a href="#">이벤트</a></li>
+	   							<li><a href="#">고객센터</a></li>
+	   						</ul>
+   						</div>
+   						<!-- after가 생성이되는 위치 -->
+   						
+   						<div class="drop-menu">
+   							<div class="view-width">
+	   							<ul id="drop-menu" class="view-width row-align">
+	   								<li>
+	   									<p class="tit"><a href="">밀스</a></p>
+	   									<ul>
+	   										<li>밀스 오리지널(400kcal)</li>
+	   										<li>밀스 라이트(190kcal)</li>
+	   										<li>밀스 바이트(170kcal)</li>
+	   										<li>밀스 방탄(ketogenic)</li>
+	   									</ul>
+									</li>
+		   							<li>
+		   								<p class="tit"><a href="">아침간편식</a></p>
+		   								<ul>
+	   										<li>모닝죽</li>
+	   										<li>모닝스프</li>
+	   										<li>모닝 쉐이크</li>
+	   									</ul>
+									</li>
+		   							<li>
+		   								<p class="tit"><a href="">한끼</a></p>
+		   								<ul>
+	   										<li>커리맛집</li>
+	   										<li>이노센트(식물성 고기)</li>
+	   										<li>조미료</li>
+	   										<li>보리굴비</li>
+	   									</ul>
+		   							</li>
+		   							<li>
+		   								<p class="tit"><a href="">슈가로로</a></p>
+		   								<ul>
+	   										<li>곤약젤리(5kcal)</li>
+	   										<li>스파클링(5kcal)</li>
+	   										<li>과일청(5kcal)</li>
+	   									</ul>
+		   							</li>
+		   							<li>
+		   								<p class="tit"><a href="">간식/음료</a></p>
+		   								<ul>
+	   										<li>닥터넛츠</li>
+	   										<li>시리얼바</li>
+	   										<li>음료</li>
+	   										<li>브리드엑시트</li>
+	   									</ul>
+		   							</li>
+		   							<li>
+		   								<p class="tit"><a href="">다이어트/건강</a></p>
+		   								<ul>
+	   										<li>CHC/다이어트 보조제</li>
+	   										<li>다이어트 스낵</li>
+	   										<li>건강기능식품</li>
+	   									</ul>
+		   							</li>
+		   							<li>
+		   								<p class="tit"><a href="">이벤트</a></p>
+		   								<ul>
+	   										<li>이벤트</li>
+	   									</ul>
+	   								</li>
+		   							<li>
+		   								<p class="tit"><a href="">고객센터</a></p>
+		   								<ul>
+	   										<li>공지사항</li>
+	   										<li>FAQ</li>
+	   										<li>1:1문의</li>
+	   									</ul>
+		   							</li>
+	   							</ul>
+   							</div>
+   						</div>
+      				</section>
+      				
+      			</div>
+      		</nav>
+      	</div>
+    </header>
+</body>
+</html>

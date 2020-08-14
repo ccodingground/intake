@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<meta charset="UTF-8">
+	<title>Insert title here</title>
+	<script src="/js/jquery-3.5.1.min.js"></script>
+	<script src="/js/gnb-drop.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/index.css">
+	
+</head>
+<body>
+	<!-- header을 포함시키는 영역 -->
+	<div th:insert="~{commons/header :: header }" >
+	</div>
+	<!-- <div th:include="~{commons/header :: header }">
+		th:fragment 가 지정된 안쪽 내용만 include한다.
+	</div> -->
+	<div>
+		<section id="visual">
+			<h1>비주얼영역</h1>
+			<div id="visual-area">
+				<ul>
+					<li class="bg1" ></li>
+				
+				</ul>
+			</div>
+			<div id="btn-wrap" >
+				<div class="btn view-width">
+					<a href="#" id="prev"></a>
+					<a href="#" id="next"></a>
+				</div>
+			</div>
+		</section>
+		<main>
+			<h1>시작페이지</h1>
+			
+		</main>
+	</div>
+	<div th:insert="~{commons/footer :: footer }" ></div>
+</body>
+</html>
